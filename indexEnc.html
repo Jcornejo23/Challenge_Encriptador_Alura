@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang es-mx>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Challenge Encriptador Alura</title>
+        
+        <link rel="stylesheet" href="styleChallenge.css">
+    </head>
+    <body>
+        <main>
+            <header id="alura">a</header>
+            <div class="container">
+                <div class="areaTrabajo">
+                    <textarea type="texto" id="campoUsuario"  placeholder="Ingresa tu texto aqui para encriptar o desencriptar"></textarea>
+                    
+                <p class="advertencia">¡Solo se aceptan letras minusculas y sin acento, no se aceptaran caracteres especiales!</p>
+                <div class="acciones">
+                    <button onclick = "adelante();" id="Encriptar" class="Azul">Encriptar</button>
+                    <button onclick ="desencriptar();" id="Desencriptar" class ="Botones">Desencriptar</button>
+                </div>
+                
+                </div>
+                <div class="areaResultado">
+                    <img id="imagenAntes"src="antes.png" alt="No se ha encontrado texto a encriptar">
+                    <p id="Resultado" style="display: none;"></p> 
+                    <p id="error" style="display: none;", style="color: red;">¡SOLO LETRAS MINUSCULAS Y SIN ACENTOS!</p>       
+                    <button onclick ="copiar();" id="copiar" class="Botones" style="display: none;">Copiar</button>
+        
+                </div>    
+            </div>
+        </main>
+        <footer class="datos">Desarrollado por Juan Carlos Cornejo Gonzalez Agosto 2024</footer>
+
+        <script src="funcion.js"></script>
+    </body>
+</html>

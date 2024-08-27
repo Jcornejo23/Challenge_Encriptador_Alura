@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#alura{
+    font-size: 10rem;
+    color: purple;
+    margin-left: 13rem;
+}
+body {   
+    display:flex;
+    background-image: url(fondo2.jpg); 
+    background-size: cover;
+
+    width: 100%;    
+    flex-direction: column
+  
+}
+.container{
+    display:flex;
+    align-items: flex-start;  
+    justify-content: center;
+    box-sizing: border-box;     
+    height: 100vh;
+}
+#campoUsuario{
+    min-height: 300px;
+    min-width: 100%;
+    font-size: 2rem;
+}
+.advertencia{
+    color:#e9ecef;
+    font-size: 1.5rem;
+    background-color: #555555;
+    border-radius: .5rem;
+}
+.areaResultado img{
+   height: 44rem;
+   width: 70%;
+}
+.areaResultado, .areaTrabajo{
+    flex: 1;
+    max-width: 100%; 
+    justify-content: center;    
+    display: block;
+    margin: 2rem;
+}
+.acciones{
+    display: flex;    
+    justify-content: space-between;
+}
+.Azul{
+    background-color: #0a3871;
+    color: #ffffff;
+    border-radius: 1rem;
+    padding: 1rem 6rem;
+    cursor: pointer;
+}
+.Botones{
+    background-color: #a5a5a5;
+    padding: 1rem 6rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.Azul:hover{
+    background-color: aquamarine;
+}
+
+.Botones:hover{
+    background-color: aquamarine;
+}
+#Resultado{
+    min-height: 16rem;
+    max-width: 100%;
+    background-color: #e9ecef;
+    padding: .5rem;
+    border-radius: .4rem;
+    font-size: 2rem;
+    
+}
+#error{
+    font-size: 4rem;
+    color:#e9ecef;
+    background-color: #ff1100;
+    border-radius: 1rem;
+}
+.datos{    
+    text-align: center;
+    color: #dddddd;
+    background-color: purple;
+    font-size: 1.5rem;
+    padding: .6rem;
+}
